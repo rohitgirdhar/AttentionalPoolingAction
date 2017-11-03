@@ -1,0 +1,16 @@
+*.pyc
+*.swp
+*.so
+*.jpg
+*.html
+\#*\#
+.\#*
+*~
+*.h5
+src/expt_outputs/*
+src/data/*
+
+# Custom stuff
+webpages/002_VisAtt2/hmdb_frames
+webpages/002_VisAtt2/linAtt
+webpages/002_VisAtt2/poseAtt
