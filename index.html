@@ -1,0 +1,164 @@
+
+<!-- Taken from url=http://www.cs.cmu.edu/~dfouhey/3DP/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="StyleSheet" href="assets/style.css" type="text/css" media="all">
+
+<title>Attentional Pooling for Action Recognition</title>
+<script type="text/javascript" async="" src="assets/ga.js"></script><script type="text/javascript">
+</script>
+
+<!-- bibliographic tags -->
+<meta name="citation_title" content="Attentional Pooling for Action Recognition"/>
+<meta name="citation_author" content="Girdhar, Rohit"/>
+<meta name="citation_author" content="Ramanan, Deva"/>
+<meta name="citation_publication_date" content="2017"/>
+<meta name="citation_journal_title" content="NIPS"/>
+<meta name="citation_pdf_url" content=""/>
+
+<style type="text/css">
+#primarycontent h1 {
+	font-variant: small-caps;
+}
+#primarycontent h3 {
+}
+#primarycontent teasertext {
+	text-align: center;
+}
+#primarycontent p {
+	text-align: center;
+}
+#primarycontent {
+	text-align: justify;
+}
+#primarycontent p {
+	text-align: justify;
+}
+#primarycontent p iframe {
+	text-align: center;
+}
+</style>
+<script type="text/javascript">
+  function togglevis(elid){
+    el=document.getElementById(elid);
+    aelid=elid+"a";
+    ael=document.getElementById(aelid);
+    if(el.style.display=='none'){
+      el.style.display='inline-table';
+      ael.innerHTML="[Hide BibTex]";
+    }else{
+      el.style.display='none';
+      ael.innerHTML="[Show BibTex]";
+    }
+  }
+</script>
+
+<link rel="icon" type="image/png" href="http://rohitgirdhar.github.io/favicon.png">
+
+</head>
+<body>
+<div id="primarycontent">
+<h1 align="center" itemprop="name"><strong>
+Attentional Pooling for Action Recognition
+</strong></h1>
+
+
+   <table class="results" align="center">
+    <tr>
+      <td align="center">
+	      <img src="assets/teaser.jpg" width="85%" /></a>
+      </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+      <td class="credits" align="justify">
+We introduce a simple yet surprisingly powerful model to incorporate attention
+in action recognition and human object interaction tasks.
+Our proposed attention module can be trained with or without extra supervision,
+and gives a sizable boost in accuracy while keeping the network size and
+computational cost nearly the same. It leads to significant improvements over
+state of the art base architecture on three standard action recognition
+benchmarks across still images and videos, and establishes new state of the
+art on MPII (12.5% relative improvement) and HMDB (RGB) datasets.
+We also perform an extensive analysis of our attention module both empirically
+and analytically. In terms of the latter, we introduce a novel derivation of
+bottom-up and top-down attention as low-rank approximations of bilinear pooling
+methods (typically used for fine-grained classification). From this perspective,
+our attention formulation suggests a novel characterization of action
+recognition as a fine-grained recognition problem.
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+	      <img src="assets/teaser.png" width="95%" /></a>
+      </td>
+    </tr>
+ </table>
+
+
+
+<h3>People</h3>
+
+<table id="people" style="margin:auto;">
+  <tr>
+    <td>
+      <img src="assets/authors/rohit.jpg"/><br/>
+      <a href="http://www.cs.cmu.edu/~rgirdhar/">Rohit Girdhar</a>
+    </td>
+    <td>
+      <img src="assets/authors/deva.jpg"/><br/>
+      <a href="http://www.cs.cmu.edu/~deva/">Deva Ramanan</a>
+    </td>
+  </tr>
+</table>
+
+
+<h3>Paper</h3>
+<table>
+  <tr></tr>
+  <tr><td>
+    <a href="docs/paper.pdf"><img style="box-shadow: 5px 5px 2px #888888; margin: 10px" src="assets/paper-screenshot.png" width="150px"/></a>
+  </td>
+  <td></td>
+  <td>
+    R. Girdhar and  D. Ramanan<br/>
+    <a href="#">Attentional Pooling for Action Recognition</a><br/>
+    Advances in <i>Neural Information Processing Systems</i> (NIPS), 2017 <br/>
+    [<a href="arxiv/">arXiv</a>] [<a href="http://github.com/rohitgirdhar/AttentionalPoolingAction/">code/models</a>]
+    [<a href="javascript:togglevis('girdhar17a')" id="bibtex">BibTex</a>]
+</table>
+
+
+
+<table class="bibtex" style="display:none" id="girdhar17a"><tr><td>
+<pre>
+    @inproceedings{Girdhar_17b_AttentionalPoolingAction,
+        title = {Attentional Pooling for Action Recognition},
+        author = {Girdhar, Rohit and Ramanan, Deva},
+        booktitle = {NIPS},
+        year = 2017
+    }
+</pre>
+</td></tr></table>
+
+<h3>Acknowledgements</h3>
+<p>
+  Authors would like to thank Olga Russakovsky for initial review. This research was
+supported in part by the National Science Foundation (NSF) under grant numbers CNS-1518865 and IIS-1618903, and the Defense Advanced Research Projects Agency (DARPA) under Contract No. HR001117C0051.
+Additional support was provided by the Intel Science and Technology Center for Visual Cloud Systems (ISTC-VCS). Any opinions, findings, conclusions or recommendations expressed in this material are those of the
+authors and do not necessarily reflect the view(s) of their employers or the above-mentioned funding sources.
+</p>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71557010-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body></html>
