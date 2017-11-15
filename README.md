@@ -30,6 +30,8 @@ $ git clone --recursive
 $ export ROOT=`pwd`/AttentionalPoolingAction
 $ cd $ROOT/src/
 $ mkdir -p expt_outputs data
+$ # compile some custom ops
+$ cd custom_ops; make; cd ..
 ```
 
 ## Data setup
