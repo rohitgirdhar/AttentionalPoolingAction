@@ -82,8 +82,7 @@ def bytes_feature(values):
 
 def image_to_tfexample(image_data, image_format, height, width,
                        pose, # [x,y,is_vis,...]
-                       action_label,
-                       salicon_image_data):
+                       action_label):
   assert(len(pose) % (_NUM_JOINTS * 3) == 0)
   return tf.train.Example(features=tf.train.Features(feature={
       'image/encoded': bytes_feature(image_data),
@@ -92,7 +91,6 @@ def image_to_tfexample(image_data, image_format, height, width,
       'image/class/action_label': int64_feature(action_label),
       'image/height': int64_feature(height),
       'image/width': int64_feature(width),
-      'image/salicon': bytes_feature(salicon_image_data),  # salicon saliency map (for baselines in NIPS 17 rebuttal)
   }))
 
 
