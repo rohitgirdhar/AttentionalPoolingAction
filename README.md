@@ -26,7 +26,7 @@ This code was trained and tested with
 Clone the code and create some directories for outputs
 
 ```bash
-$ git clone --recursive
+$ git clone --recursive https://github.com/rohitgirdhar/AttentionalPoolingAction.git
 $ export ROOT=`pwd`/AttentionalPoolingAction
 $ cd $ROOT/src/
 $ mkdir -p expt_outputs data
