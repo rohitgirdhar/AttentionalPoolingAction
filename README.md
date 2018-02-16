@@ -26,7 +26,7 @@ This code was trained and tested with
 Clone the code and create some directories for outputs
 
 ```bash
-$ git clone --recursive
+$ git clone --recursive https://github.com/rohitgirdhar/AttentionalPoolingAction.git
 $ export ROOT=`pwd`/AttentionalPoolingAction
 $ cd $ROOT/src/
 $ mkdir -p expt_outputs data
@@ -57,7 +57,7 @@ $ python gen_tfrecord_mpii.py  # Will generate the tfrecord files
 
 ### Keypoint labels for other datasets
 
-While MPII dataset comes with pose labels, I also experiment with HMDB-51 and HICO, pose for which was computed using an initial vesion of [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). I provide the extracted keypoints here: [HMDB51]() and [HICO](https://cmu.box.com/shared/static/42xizpt0w3almdgwczjxawvc1pvpesoa.tar).
+While MPII dataset comes with pose labels, I also experiment with HMDB-51 and HICO, pose for which was computed using an initial version of [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). I provide the extracted keypoints here: [HMDB51]() and [HICO](https://cmu.box.com/shared/static/42xizpt0w3almdgwczjxawvc1pvpesoa.tar).
 
 ## Testing pre-trained models
 
