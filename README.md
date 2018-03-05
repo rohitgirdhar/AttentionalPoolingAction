@@ -117,11 +117,11 @@ This is for getting the final number on MPII test set.
 
 ```bash
 # Train on the train + val set
-$ python train.py --cfg ../experiments/002_MPII_ResNet_withAttention_train+val.yaml
+$ python train.py --cfg ../experiments/004_MPII_ResNet_withAttention_train+val.yaml
 # Test on the test set
-$ python eval.py --cfg ../experiments/002_MPII_ResNet_withAttention_train+val.yaml --save
+$ python eval.py --cfg ../experiments/004_MPII_ResNet_withAttention_train+val.yaml --save
 # Convert the output into the MAT files as expected by MPII authors (requires matlab/octave)
 $ cd ../utils;
-$ bash convert_mpii_result_for_eval.sh ../src/expt_outputs/002_MPII_ResNet_withAttention_train+val.yaml/<filename.h5>
+$ bash convert_mpii_result_for_eval.sh ../src/expt_outputs/004_MPII_ResNet_withAttention_train+val.yaml/<filename.h5>
 # Now the generated mat file can be emailed to MPII authors for test evaluation
 ```
