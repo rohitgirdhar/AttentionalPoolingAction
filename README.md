@@ -70,7 +70,7 @@ The models can be run by
 # Baseline model (no attention)
 $ python eval.py --cfg ../experiments/001_MPII_ResNet_pretrained.yaml
 # With attention
-$ python eval.py --cfg ../experiments/002_MPII_ResNet_pretrained.yaml
+$ python eval.py --cfg ../experiments/002_MPII_ResNet_withAttention_pretrained
 # With pose regularized attention
 $ python eval.py --cfg ../experiments/003_MPII_ResNet_withPoseAttention_pretrained.yaml
 ```
