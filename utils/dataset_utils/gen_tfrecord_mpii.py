@@ -20,7 +20,7 @@ _IMG_DIR = '/path/to/MPII/images/'
 
 
 dataset_dir = '../../src/data/mpii/mpii_tfrecords/'
-_SPLITS_PATH = '../../src/data/mpii/lists/'
+_SPLITS_PATH = '../../src/data/mpii/lists/images_mpii_{0}.txt'
 
 # Seed for repeatability.
 _RANDOM_SEED = 42
