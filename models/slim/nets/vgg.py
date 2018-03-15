@@ -163,9 +163,10 @@ def vgg_16(inputs,
       # net = slim.repeat(net, 3, slim.conv2d, 512, [3, 3], scope='conv5')
       # rgirdhar: remove the relu from last layer
       net = slim.repeat(net, 2, slim.conv2d, 512, [3, 3], scope='conv5')
-      conv5_output = net
       net = slim.conv2d(net, 512, [3, 3], activation_fn=None,
                         scope='conv5/conv5_3')
+      conv5_output = net
+      net = tf.nn.relu(net)
       net = slim.max_pool2d(net, [2, 2], scope='pool5')
       # Use conv2d instead of fully_connected layers.
       net = slim.conv2d(net, 4096, [7, 7], padding='VALID', scope='fc6')
