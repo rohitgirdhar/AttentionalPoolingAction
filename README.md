@@ -1,5 +1,7 @@
 # Attentional Pooling for Action Recognition
 
+[[project page](https://rohitgirdhar.github.io/AttentionalPoolingAction/)] [[paper](https://arxiv.org/abs/1711.01467)]
+
 If this code helps with your work/research, please consider citing
 
 Rohit Girdhar and Deva Ramanan. **Attentional Pooling for Action Recognition**. Advances in Neural Information Processing Systems (NIPS), 2017.
