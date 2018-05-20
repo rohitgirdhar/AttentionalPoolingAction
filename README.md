@@ -87,7 +87,7 @@ $ python eval.py --cfg ../experiments/003_MPII_ResNet_withPoseAttention_pretrain
 
 ## Training
 
-Train a attentional pooled model on MPII dataset, using `python train.py --cfg <path to YAML file>`.
+Train an attentional pooled model on MPII dataset, using `python train.py --cfg <path to YAML file>`.
 
 ```bash
 $ cd $ROOT/src
